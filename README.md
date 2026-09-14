@@ -23,6 +23,7 @@ Hosting
 
 MonsBot is hosted on Nest, where it runs continuously as a background process. This allows the bot to remain connected to Slack without needing to be started manually each time.
 
+
 Configuration
 
 The bot requires two Slack tokens stored as environment variables:
@@ -31,6 +32,7 @@ SLACK_BOT_TOKEN=xoxb-your-bot-token
 SLACK_APP_TOKEN=xapp-your-app-token
 
 The tokens should never be committed to the repository.
+
 
 Slack Setup
 
@@ -61,6 +63,8 @@ node index.js
 If successful, the console will display:
 
 bot is running!
+
+
 Project Structure
 monsbot/
 ├── index.js
